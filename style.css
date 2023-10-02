@@ -1,7 +1,8 @@
 nav{
     position:sticky;
     top:0px;
-    background-color: white;;
+    background-color: white;
+    z-index:2;
 }
 
 .vertical-line{
@@ -68,5 +69,144 @@ margin-top:10px;
 }
 .my-card>img{
     display:inline-block;
+    margin: 20px;
+}
+.time{
+    background-color:#f2f2f2;
+    display:flex;
+    font-weight:700;
+    font-size:9px;
+    color:rgb(54,54,54);
+    width:fit-content;
+    padding:3px;
+    border-radius:5px;
+}
+.time>h6{
+    padding-top:6px;
+    padding-right:10px;
+}
+.timer{
+    font-size:15px;
+    padding:10px;
+}
+.product_weight{
+    font-size:13px;
+    color:#666666;
+}
+.row-3{
+    font-weight:600;
+}
+.list>div{
+    display:inline-block;
     margin:auto;
+    
+}
+.off{
+    position:absolute;
+    top:0;
+    left:3;
+    width:40px;
+    background-color:#538CEE;
+    text-align:center;
+    font-size:13px;
+    font-weight:900;
+    color:white;
+}
+footer{
+    width:82vw;
+    margin:auto;
+}
+#footer-3{
+    color:#B3B3B3;
+    font-size:15px;
+    text-align:justify;
+    padding-left:10px;
+}
+#footer-2{
+    display:flex;
+    font-size:13px;
+    text-align:justify;
+    color:#B3B3B3;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+#footer-2-col1{
+    flex:1;
+    padding-inline:10px;
+    padding-top:15px;
+}
+#footer-2-col2>h6{
+    color:#B3B3B3;
+    padding-top:15px;
+}
+.some-box{ 
+    width:120px;
+    height:40px;
+    border-radius:10px;
+    justify-content:center;
+    margin:auto;
+    text-align:center;
+    color:white;
+    display:flex;
+    align-items:center;
+    background-color:#213a50;
+
+}
+
+#footer-2-col2{
+    flex:1;
+    padding-inline:10px;
+    display:flex;
+    
+}
+#footer-2-col3{
+    flex:1;
+    display:flex;
+    justify-content:space-between;
+}
+.social-icon{
+    width:50px;
+    height:50px;
+    background-color:black;
+    color:white;
+    display:flex;
+    font-size:30px;
+    justify-content:center;
+    align-items:center;
+    margin:auto;
+    border-radius:50%;
+    
+}
+.social-icon:hover{
+    color:black;
+    background-color: white;
+    box-shadow:3px 3px 15px black;
+}
+#footer-1{
+    display:flex;
+    margin-top:30px;
+}
+.footer-table-1{
+    flex:2;
+}
+.footer-table-2{
+    flex:3;
+    
+}
+table{
+    width:100%;
+}
+td{
+    color:#666666;
+    line-height: 30px;
+}
+td:hover{
+    text-decoration:underline;
+}
+
+@media screen and (max-width:880px) {
+    #hero-section{
+        display:none !important;
+    }
+    
 }
