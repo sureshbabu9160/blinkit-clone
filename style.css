@@ -218,21 +218,21 @@ td:hover{
         display:none !important;
     }
     nav,#footer-1{
-        display: flex;
+        display: flex !important;
         flex-direction:column !important;
     }
     .vertical-line{
-        display: none;
+        display: none ;
     }
     #nav-search{
-        width:95vw;
+        width:95vw ;
     }
     #nav-search>input{
-        width:85vw;
+        width:85vw ;
     }
     
     .footer-table-2{
-        margin-top:30px;
+        margin-top:30px ;
     }
     #span1{
         margin-left:-15px;
@@ -247,9 +247,9 @@ td:hover{
         padding-bottom:20px;
     }
     nav{
-        position:static;
+        position:static !important;
         left:0px;
         background-color: white;
-        z-index:2;
+        z-index:2 !important;
     }
 }
