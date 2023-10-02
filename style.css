@@ -213,7 +213,7 @@ td:hover{
     text-decoration:underline;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:650px) {
     #hero-section{
         display:none !important;
     }
