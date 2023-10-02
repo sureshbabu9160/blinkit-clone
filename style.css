@@ -127,6 +127,8 @@ footer{
     font-size:13px;
     text-align:justify;
     color:#B3B3B3;
+    background-color:#FCFCFC;
+    border:1px solid #FCFCFC;
     padding-top:20px;
     padding-bottom:20px;
 }
@@ -138,6 +140,9 @@ footer{
 #footer-2-col2>h6{
     color:#B3B3B3;
     padding-top:15px;
+}
+#footer-2-col2>h6:hover{
+    text-decoration: underline;
 }
 .some-box{ 
     width:120px;
@@ -152,7 +157,11 @@ footer{
     background-color:#213a50;
 
 }
-
+.some-box:hover{
+    box-shadow:3px 3px 10px black;
+    font-size:15px;
+    transition: 0.2s ease-in;
+}
 #footer-2-col2{
     flex:1;
     padding-inline:10px;
@@ -204,9 +213,43 @@ td:hover{
     text-decoration:underline;
 }
 
-@media screen and (max-width:880px) {
+@media screen and (max-width:600px) {
     #hero-section{
         display:none !important;
     }
+    nav,#footer-1{
+        display: flex;
+        flex-direction:column !important;
+    }
+    .vertical-line{
+        display: none;
+    }
+    #nav-search{
+        width:95vw;
+    }
+    #nav-search>input{
+        width:85vw;
+    }
     
+    .footer-table-2{
+        margin-top:30px;
+    }
+    #span1{
+        margin-left:-15px;
+    }
+    td{
+        padding-left:15px;
+    }
+    #footer-2{
+        display:block;
+    }
+    #footer-2>div{
+        padding-bottom:20px;
+    }
+    nav{
+        position:static;
+        left:0px;
+        background-color: white;
+        z-index:2;
+    }
 }
